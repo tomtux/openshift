@@ -1,4 +1,10 @@
 <?php
+
+echo 'hi';
+echo '<!--';
+print_R($_SERVER);
+echo '-->';
+exit;
 /**
  * Requests collector.
  *
