@@ -4,7 +4,7 @@ echo 'hi';
 echo '<!--';
 print_R($_SERVER);
 echo '-->';
-exit;
+die();
 /**
  * Requests collector.
  *
